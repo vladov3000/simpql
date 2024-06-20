@@ -1,2 +1,2 @@
 mkdir -p build
-clang++ code/main.cpp -o build/simpql
+clang++ -g -std=c++20 code/main.cpp -o build/simpql
